@@ -16,11 +16,52 @@
         <mxCell id="_bsNnyrXr3H8NdPXZoFA-2" value="获取本地的分层文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="330" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bsNnyrXr3H8NdPXZoFA-3" target="_bsNnyrXr3H8NdPXZoFA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bsNnyrXr3H8NdPXZoFA-3" target="_bsNnyrXr3H8NdPXZoFA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_bsNnyrXr3H8NdPXZoFA-3" value="Get Range bytes=xx-xx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="410" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_bsNnyrXr3H8NdPXZoFA-5" value="直接使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="410" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bsNnyrXr3H8NdPXZoFA-7" target="_bsNnyrXr3H8NdPXZoFA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-7" value="修改stargz的代码：&lt;br&gt;修改 Get Range 请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="390" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bsNnyrXr3H8NdPXZoFA-8" target="_bsNnyrXr3H8NdPXZoFA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-8" value="修改spegel的代码：&lt;br&gt;劫持 Get Range 请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="470" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bsNnyrXr3H8NdPXZoFA-9" target="_bsNnyrXr3H8NdPXZoFA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bsNnyrXr3H8NdPXZoFA-9" target="_bsNnyrXr3H8NdPXZoFA-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="807" y="490" />
+              <mxPoint x="807" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-9" value="Range请求 =&amp;gt; 节点、chunk目录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="470" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-10" value="Range请求长啥样？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="827" y="470" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-17" value="HTTP广播是啥样？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="827" y="530" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-15" value="stargz是回源请求，不要让他去感知P2P" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="390" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
