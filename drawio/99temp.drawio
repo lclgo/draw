@@ -51,17 +51,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bsNnyrXr3H8NdPXZoFA-9" target="_bsNnyrXr3H8NdPXZoFA-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_bsNnyrXr3H8NdPXZoFA-9" value="Range请求 =&amp;gt; 节点、chunk目录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="470" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_bsNnyrXr3H8NdPXZoFA-10" value="Range请求长啥样？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="827" y="470" width="140" height="40" as="geometry" />
+          <mxGeometry x="870" y="470" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_bsNnyrXr3H8NdPXZoFA-17" value="HTTP广播是啥样？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="827" y="530" width="140" height="40" as="geometry" />
+          <mxGeometry x="870" y="530" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_bsNnyrXr3H8NdPXZoFA-15" value="stargz是回源请求，不要让他去感知P2P" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="670" y="390" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_bsNnyrXr3H8NdPXZoFA-19" value="还是要做成有状态的。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="870" y="600" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
